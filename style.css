@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.container1{
+    margin-top: 40px;
+    margin-left: 380px;
+    height:10vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card1{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+.box{
+    border: 1px solid none;
+    background-color: rgba(49, 49, 238, 0.829);
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration:5s ;  
+     animation-name: prathyu;
+     margin-left: 30px;
+}
+
+@keyframes prathyu{
+    0%{
+        transform:skewx(-15deg)
+    }
+    25%{
+        transform: skewx(15deg);
+    }
+    50%{
+        transform: skewx(-15deg);
+    }
+   75%{
+        transform: skewx(15deg);
+    }
+    100%{
+        transform: skewx(-15deg);
+    }
+
+
+}
+.container2{
+    margin-top: 20px;
+     margin-left: 380px; 
+    height:10vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card2{
+    display: flex;
+    width: 100%;
+    height: 80px;
+  
+}
+.box1{
+    border: 1px solid none;
+    background-color: rgba(128, 128, 128, 0.514);
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration:5s ;  
+     animation-name: mithin;
+     margin-left: 30px;
+}
+@keyframes mithin{
+    0%{
+        transform:skewY(-15deg)
+    }
+    25%{
+        transform:skewY(15deg);
+    }
+    50%{
+        transform: skewY(-15deg);
+    }
+   75%{
+        transform: skewY(15deg);
+    }
+    100%{
+        transform: skewY(-15deg);
+    }
+}
+.container3{
+    margin-top: 30px;
+    margin-left: 380px;
+    height:10vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card3{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+.box2{
+    border: 1px solid none;
+    background-color: blue;
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration:5s ;  
+     animation-name: sudhakar;
+     margin-left: 30px;
+}
+
+@keyframes sudhakar{
+    from{
+        transform:rotate(-360deg)
+    }
+    
+    to{
+        transform:rotate(360deg) 
+    }
+
+
+}
+.container4{
+    margin-top: 30px;
+    margin-left: 380px;
+    height:10vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card4{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+.box4{
+    border: 1px solid none;
+    background-color: rgba(61, 61, 226, 0.829);
+    border-radius: 4px;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration:5s ;  
+     animation-name: example1;
+     margin-left: 30px;
+}
+
+@keyframes example1{
+    0%{
+        height: 50px;
+    }
+    
+    100%{
+        height: 60px;
+    }
+}
+.box5{
+    border: 1px solid none;
+    background-color: brown;
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration:5s ;  
+     animation-name: example2;
+     margin-left: 50px;
+}
+@keyframes example2{
+    0%{
+        width: 25px;
+    }
+    
+    100%{
+        width: 35px;
+    }
+}
+.box6{
+    border: 1px solid none;
+    background-color: green;
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration:5s ;  
+     animation-name: example3;
+     margin-left: 30px;
+}
+
+@keyframes example3{
+    from{
+        transform:rotate(-360deg)
+    }
+    
+    to{
+        transform:rotate(360deg) 
+    }
+
+}
+a{
+margin-left: 650px;
+margin-top: 30px;
+}
